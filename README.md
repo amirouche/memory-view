@@ -93,11 +93,7 @@ comments:
 
 ### mit-scheme
 
-- https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Foreign-function-interface.html#Foreign-function-interface
-
-comments:
-
-- win32
+- https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ffi/
 
 ### mosh
 
