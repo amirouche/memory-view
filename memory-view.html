@@ -1,0 +1,96 @@
+<h1 id="memory-view">memory view</h1>
+<p>review of existing scheme foreign function interface libraries</p>
+<h2 id="portable-libraries">Portable libraries</h2>
+<h3 id="r6rs-pffi">r6rs-pffi</h3>
+<ul>
+<li>https://github.com/ktakashi/r6rs-pffi</li>
+<li>supported:
+<ul>
+<li>chez</li>
+<li>mosh</li>
+<li>guile</li>
+<li>mzscheme</li>
+<li>vicare</li>
+</ul></li>
+</ul>
+<p>comments: - provides both a portable ffi and struct handling - unhygienic</p>
+<h3 id="scheme-bytestructures">scheme-bytestructures</h3>
+<ul>
+<li>https://github.com/TaylanUB/scheme-bytestructures</li>
+<li>supported:
+<ul>
+<li>r7rs</li>
+<li>chibi</li>
+<li>gauche</li>
+<li>larceny</li>
+<li>guile</li>
+<li>kawa</li>
+</ul></li>
+</ul>
+<p>comments: - it deals with working with C structs in scheme - does not support functions in struct</p>
+<h2 id="implementation-specific-libraries">Implementation specific libraries</h2>
+<h3 id="bigloo">bigloo</h3>
+<ul>
+<li>https://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo-3.html#Documentation</li>
+</ul>
+<h3 id="chez">chez</h3>
+<ul>
+<li>https://cisco.github.io/ChezScheme/csug9.5/foreign.html</li>
+</ul>
+<h3 id="chibi">chibi</h3>
+<ul>
+<li>http://synthcode.com/scheme/chibi#h2_CFFI</li>
+</ul>
+<p>comments:</p>
+<ul>
+<li>it provides a C structs representation in scheme</li>
+<li>it provides a “stubber” that reads a <code>.c</code> file and generate scheme wrapper</li>
+</ul>
+<h3 id="chicken">chicken</h3>
+<ul>
+<li>http://wiki.call-cc.org/man/5/Interface%20to%20external%20functions%20and%20variables</li>
+</ul>
+<p>comments:</p>
+<ul>
+<li>see http://wiki.call-cc.org/eggref/5/bind</li>
+</ul>
+<h3 id="gauche">gauche</h3>
+<p>not found</p>
+<ul>
+<li>https://practical-scheme.net/gauche/man/gauche-refe/index.html</li>
+</ul>
+<h3 id="guile">guile</h3>
+<ul>
+<li>https://www.gnu.org/software/guile/manual/html_node/Foreign-Function-Interface.html#Foreign-Function-Interface</li>
+</ul>
+<p>comments:</p>
+<ul>
+<li>see https://www.nongnu.org/nyacc/ffi-help.html</li>
+</ul>
+<h3 id="ikarus">ikarus</h3>
+<ul>
+<li>http://ikarus-scheme.org/#documentation</li>
+</ul>
+<h3 id="kawa">kawa</h3>
+<p>not found</p>
+<ul>
+<li>https://www.gnu.org/software/kawa/</li>
+</ul>
+<h3 id="larceny">larceny</h3>
+<ul>
+<li>http://larcenists.org/Documentation/Documentation1.3/user-manual-alt.html#FfiChapter</li>
+</ul>
+<p>comments:</p>
+<ul>
+<li>see https://www.researchgate.net/publication/237748861_The_Layers_of_Larceny’s_Foreign_Function_Interface</li>
+</ul>
+<h3 id="mosh">mosh</h3>
+<ul>
+<li>http://mosh.monaos.org/files/lib/mosh/ffi-ss.html</li>
+</ul>
+<h3 id="vicare">vicare</h3>
+<p>not found</p>
+<h3 id="racket">racket</h3>
+<ul>
+<li>https://docs.racket-lang.org/foreign/index.html</li>
+</ul>
