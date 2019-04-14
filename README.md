@@ -81,9 +81,7 @@ comments:
 
 ### kawa
 
-not found
-
-- https://www.gnu.org/software/kawa/
+- https://www.gnu.org/software/kawa/Objects-Classes-and-Modules.html
 
 ### larceny
 
