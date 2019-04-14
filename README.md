@@ -91,6 +91,14 @@ comments:
 
 - see https://www.researchgate.net/publication/237748861_The_Layers_of_Larceny's_Foreign_Function_Interface
 
+### mit-scheme
+
+- https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/Foreign-function-interface.html#Foreign-function-interface
+
+comments:
+
+- win32
+
 ### mosh
 
 - http://mosh.monaos.org/files/lib/mosh/ffi-ss.html
