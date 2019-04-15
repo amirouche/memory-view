@@ -67,6 +67,10 @@ not found
 
 - https://practical-scheme.net/gauche/man/gauche-refe/index.html
 
+### gerbil
+
+- https://cons.io/guide/ffi.html
+
 ### guile
 
 - https://www.gnu.org/software/guile/manual/html_node/Foreign-Function-Interface.html#Foreign-Function-Interface
